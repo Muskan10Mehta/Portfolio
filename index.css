@@ -1,0 +1,122 @@
+.link-color {
+  color: black;
+  font-size: larger;
+  font-weight: 300;
+  font-family: "Londrina Solid", cursive;
+}
+
+.link-color:hover {
+  color: black;
+  font-weight: 400;
+  font-family: "Londrina Solid", cursive;
+}
+
+.link-color li:hover {
+  color: black;
+  font-weight: 300;
+  font-family: "Londrina Solid", cursive;
+}
+
+ul li.nav-item:not(:last-child) {
+  padding-right: 5rem;
+}
+
+/* .home-body {
+  justify-content: center;
+} */
+.home-heading {
+  font-family: "Londrina Shadow", cursive;
+  /* color: white; */
+  font-size: 150;
+  margin: 5rem;
+}
+/* 
+.home-block {
+  width: 75%;
+  height: 50%;
+  background-color: black;
+  border-radius: 3rem;
+  margin: 5rem;
+} */
+
+.container {
+  display: grid;
+  width: 100%;
+  height: auto;
+  margin-top: auto;
+  grid-template-columns: 35% 65%;
+  grid-auto-rows: 35%;
+  justify-content: center;
+  grid-gap: 1rem;
+}
+
+.container > div {
+  padding: 3rem;
+  background-color: black;
+  border-radius: 2rem;
+  color: white;
+  font-family: "Londrina Solid", cursive;
+}
+
+.container > div:hover {
+  box-shadow: inset 5px 5px 30px #c6c6c6, inset -5px -5px 30px #ffffff;
+}
+
+.container p.headings {
+  font-family: "Londrina Shadow", cursive;
+  font-size: 4rem;
+  text-align: left;
+}
+
+hr {
+  background-color: white;
+}
+
+.competency-list li {
+  list-style-type: none;
+  font-size: 1.5rem;
+  text-align: left;
+  font-weight: 300;
+}
+
+.list li {
+  list-style-type: circle;
+  font-size: 1.5rem;
+  text-align: left;
+  font-weight: 300;
+}
+
+.home-block {
+  grid-column: 1/3;
+}
+.education-block {
+  grid-row: 2;
+}
+.ed-blocks {
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 300;
+}
+.competency-block {
+  grid-row: 3/4;
+  padding-bottom: -10rem;
+}
+
+.activity-block {
+  grid-column: 2;
+  grid-row: 2/4;
+}
+
+.projects-block {
+  grid-column: 1/3;
+  grid-row: 4/6;
+}
+
+.zine-block {
+  grid-column: 1/3;
+  grid-row: 6;
+}
+.zine-img {
+  width: 50%;
+  height: 50%;
+}
